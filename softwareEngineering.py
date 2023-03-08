@@ -27,6 +27,7 @@ def main():
         print("1. Encode\n2. Decode\n3. Quit")
         print()
         print("Please enter an option: ", end="")
+        #read input
         chosenInt = int(input())
         if chosenInt == 1:
             print("Please enter your password to encode: ", end="")
